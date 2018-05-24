@@ -1,0 +1,17 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="pos_test:war exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/pos_test_war_exploded</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="pos_test/web/Web" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="pos_test" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="file-copy" path="$PROJECT_DIR$/lib/json-20160212.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/lib/postgresql-9.4-1201.jdbc4.jar" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>
